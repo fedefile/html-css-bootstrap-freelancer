@@ -1,0 +1,76 @@
+header {
+    background: rgb(33,81,145);
+    background: linear-gradient(45deg, rgba(33,81,145,1) 0%, rgba(1,37,84,1) 35%);
+    color: #7393c1;
+    padding-top: 50px;
+}
+
+h1 {
+    color: white;
+    font-weight: 300;
+}
+
+header h2 {
+    color: #7393c1;
+    font-weight: 300;
+}
+
+.testo {
+    padding-top: 40px;
+}
+
+.cellulare {
+    transform: translateY(20px);
+}
+
+.perfect-day {
+    background-color: #f6f7f8;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+p {
+    color: #9ba6b7;
+}
+
+.perfect-day h4 {
+    color: #274daf;
+}
+
+@media screen and (min-width: 768px) {
+    .testo-sx {
+        transform: translateY(150px);
+    }
+
+    .testo-dx {
+        transform: translateY(200px);
+    }
+}
+
+.pomodoro {
+    background-color: #2a4b77;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.pomodoro h2 {
+    color: white;
+    padding-bottom: 20px;
+}
+.pomodoro h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.pomodoro p {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    header,
+    section,
+    .text-right {
+        text-align: center;
+    }
+}
